@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Motorcycle Information</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>Motorcycle Information</h1>
+  <div class="form-container">
+    <label for="manufacturerInput">Manufacturer/Brand:</label>
+    <input type="text" id="manufacturerInput">
+  </div>
+  <div class="form-container">
+    <label for="modelInput">Model:</label>
+    <input type="text" id="modelInput">
+  </div>
+  <div class="form-container">
+    <label for="yearInput">Year:</label>
+    <input type="text" id="yearInput">
+  </div>
+  <button onclick="getSpecs()">Get Specs</button>
+  <div id="specsContainer"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
